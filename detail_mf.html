@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html class="csstransforms csstransforms3d csstransitions">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<title>图像解译与智能处理实验室</title>
+	<link href="./files/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./files/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./files/prettyPhoto.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./files/css" rel="stylesheet" type="text/css">
+	<link href="./files/content.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./files/font.css" rel="stylesheet" type="text/css" media="all">
+	<script type="text/javascript" src="./files/jquery.min.js.下载"></script>
+	<script type="text/javascript" src="./files/bootstrap.js.下载"></script>
+	<script type="text/javascript" src="./files/jquery.banner.js.下载"></script>
+	<script type="text/javascript" src="./files/jquery.prettyPhoto.js.下载"></script>
+	<script type="text/javascript" src="./files/jquery.isotope.js.下载"></script>
+	<script type="text/javascript" src="./files/main.js.下载"></script>
+	<script>
+		var lastname = 'Me';
+
+		function func(name) {
+			var div = document.getElementById(name);
+			div.className = 'active';
+			div = document.getElementById(lastname);
+			div.className = '';
+			lastname = name;
+		}
+
+		function coming_soon() {
+			alert("Coming soon.");
+		}
+	</script>
+</head>
+
+<body>
+	<div class="header">
+		<!---start-top-nav--->
+		<div class="top-nav" style="display: flex;">
+			<div style="float: left;width: 289px;">
+				<ul>
+					<li id=" index" onclick="func(&#39;Me&#39;)"><a href="./index.html" class="scroll">主页</a></li>
+					<li id="Member" onclick="func(&#39;Member&#39;)"><a href="./Member.html" class="scroll">成员</a></li>
+					<li id="Publication" onclick="func(&#39;Publications&#39;)"><a href="./Publication.html"
+							class="scroll">论著</a></li>
+				</ul>
+			</div>
+			<div style="text-align:center; float: none;">
+				<img style="width: 20%; height: auto;" src="./img/ai.jpg">
+			</div>
+			<div style="float: right;">
+				<ul>
+					<li id="Achievement" onclick="func(&#39;Achievement&#39;)"><a href="./Achievement.html"
+							class="scroll">成果</a></li>
+					<li id="Act" onclick="func(&#39;Act&#39;)"><a href="./Act.html" class="scroll">活动</a></li>
+					<li id="Contact" onclick="func(&#39;Contact&#39;)"><a href="./Contact.html" class="scroll">联系方式</a>
+				</ul>
+			</div>
+		</div>
+
+		<div class="clear"> </div>
+		<!---End-top-nav--->
+	</div>
+
+
+	<div class="main_box">
+		<div class="thumbnail-people">
+			<img id="pic" src="./img/mafei_r.jpg" class="people-photo">
+		</div>
+
+		<hr />
+
+		<div>
+			<h4 style="font-size: 0px;">
+				<span>马飞，工学博士，副教授，硕士生导师。2020年毕业于北京航空航天大学信号与信息处理专业，获工学博士学位。</span>
+				<span>2017年获国家留学基金委全额资助赴加拿大麦吉尔大学（MCGill）从事图像处理、机器学习方面的访学研究。</span>
+				<span> 主要研究方向为人工智能、机器学习、合成孔径雷达（SAR）信号处理、SAR图像解译。在国际期刊上发表SCI论文10余篇，</span>
+				<span>在国际会议LSMS-ICSEE 2017上获得“会议最佳论文”提名，获得2020年“中科星图”高分遥感图像解译大赛“高分辨率可见光图像精细化标注”</span>
+				<span>项目第一名。</span>
+			</h4>
+		</div>
+
+		<hr />
+
+		<div>
+			<p>招生专业 Admissions Major</p>
+			<li>
+				硕士招生：欢迎电子信息工程/人工智能/通信工程等相关专业的同学报考！
+			</li>
+			<li>
+				学术硕士：信息与通信工程（02图像解译与智能处理）
+			</li>
+			<li>
+				专业硕士：电子信息（新一代电子信息技术-02遥感信息处理）
+			</li>
+		</div>
+
+		<hr />
+
+		<div>
+			<p>主要科研项目</p>
+			<table border="1">
+				<tr>
+					<td>项目名称</td>
+					<td>项目来源</td>
+				</tr>
+				<tr>
+					<td>星载SAR成像与智能解译演示系统</td>
+					<td>横向课题</td>
+				</tr>
+				<tr>
+					<td>SAR数据GPU实时处理程序开发</td>
+					<td>横向课题</td>
+				</tr>
+				<tr>
+					<td>海杂波抑制算法的并行处理技术</td>
+					<td>横向课题</td>
+				</tr>
+			</table>
+		</div>
+
+		<hr />
+
+		<p>主要论文</p>
+		<div style="font-family: 'Times New Roman', Times, serif;">
+			<li>
+				<b>Fei Ma</b>
+				, Fan Zhang, Deliang Xiang, et al. Fast Task-Specific Region Merging for SAR Image Segmentation[J]. 
+				<b><i>IEEE Transactions on Geoscience and Remote Sensing</i></b>
+				, 2022. 
+			</li>
+			<li>
+				Jiaxin Tang, Deliang Xiang, Fan Zhang, 
+				<b>Fei Ma*</b>
+				, et al. Incremental SAR Automatic Target Recognition with Error Correction and High Plasticity. 
+				<b><i>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</i></b>
+				, 2022. 
+			</li>
+			<li>
+				<b>Fei Ma</b>
+				, Fan Zhang, Qiang Yin, et al. Fast SAR Image Segmentation With Deep Task-Specific Superpixel Sampling and Soft Graph Convolution[J]. 
+				<b><i>IEEE Transactions on Geoscience and Remote Sensing</i></b>
+				, 2021.
+			</li>
+			<li>
+				J. Ni, F. Zhang, 
+				<b>Fei Ma*</b>
+				, Q. Yin and D. Xiang, Random Region Matting for High-Resolution PolSAR Image Semantic Segmentation[J], 
+				<b><i>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</i></b>
+				, 2021, doi: 10.1109/JSTARS.2021.3062447.
+			</li>
+			<li>
+				<b>Fei Ma</b>
+				, Fei Gao, Jun Wang*, Amir Hussain, Huiyu Zhou. A Novel Biologically Inspired Target Detection Method based on Saliency Analysis in SAR Imagery [J]. Neurocomputing, 2020, 402: 66-79.
+			</li>
+			<li>
+				<b>Fei Ma</b>
+				, Fei Gao*, Jinping Sun, Huiyu Zhou and Amir Hussain. Attention Graph Convolution Network for Image Segmentation in Big SAR Imagery Data[J]. Remote Sensing, 2019, 11(21): 2586.
+			</li>
+			<li>
+				<b>Fei Ma</b>
+				, Fei Gao*, Jinping Sun, Huiyu Zhou, Amir Hussain. Weakly Supervised Segmentation of SAR Imagery Using Superpixel and Hierarchically Adversarial CRF[J]. Remote Sensing, 2019, 11(5): 512.
+			</li>
+			<li>
+				Fei Gao, 
+				<b>Fei Ma*</b>
+				, Jun Wang, Jinping Sun, Erfu Yang, Huiyu Zhou. Visual Saliency Modeling for River Detection in High-Resolution SAR Imagery[J]. IEEE Access, 2017, 6: 1000-1014.
+			</li>
+			<li>
+				Fei Gao, 
+				<b>Fei Ma</b>
+				, Xiling Luo, Jun Wang, Jinping Sun. Hierarchical Feature-Based Detection Method for SAR Targets Under Complex Environment[J]. Chinese Journal of Electronics, 2017, 26(3):647-653.
+			</li>
+			<li>
+				<b>马飞</b>
+				，张帆，周勇胜等，“中科星图杯”第四届高分遥感图像解译大赛《高分辨率可见光图像精细化标注》课目一等奖，高分辨率对地观测学术年会组委会, 2020.
+			</li>
+		</div>
+
+		<hr />
+
+	</div>
+</body>
+
+</html>

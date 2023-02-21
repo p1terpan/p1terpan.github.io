@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html class="csstransforms csstransforms3d csstransitions">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<title>图像解译与智能处理实验室</title>
+	<link href="./files/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./files/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./files/prettyPhoto.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./files/css" rel="stylesheet" type="text/css">
+	<link href="./files/content.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./files/font.css" rel="stylesheet" type="text/css" media="all">
+	<script type="text/javascript" src="./files/jquery.min.js.下载"></script>
+	<script type="text/javascript" src="./files/bootstrap.js.下载"></script>
+	<script type="text/javascript" src="./files/jquery.banner.js.下载"></script>
+	<script type="text/javascript" src="./files/jquery.prettyPhoto.js.下载"></script>
+	<script type="text/javascript" src="./files/jquery.isotope.js.下载"></script>
+	<script type="text/javascript" src="./files/main.js.下载"></script>
+	<script>
+		var lastname = 'Me';
+
+		function func(name) {
+			var div = document.getElementById(name);
+			div.className = 'active';
+			div = document.getElementById(lastname);
+			div.className = '';
+			lastname = name;
+		}
+
+		function coming_soon() {
+			alert("Coming soon.");
+		}
+	</script>
+</head>
+
+<body>
+	<!---start-wrap--->
+	<!---start-header--->
+	<div class="header">
+		<!---start-top-nav--->
+		<div class="top-nav" style="display: flex;">
+			<div style="float: left;width: 289px;">
+				<ul>
+					<li id=" index" onclick="func(&#39;Me&#39;)"><a href="./index.html" class="scroll">主页</a></li>
+					<li id="Member" onclick="func(&#39;Member&#39;)"><a href="./Member.html" class="scroll">成员</a></li>
+					<li id="Publication" onclick="func(&#39;Publications&#39;)"><a href="./Publication.html"
+							class="scroll">论著</a></li>
+				</ul>
+			</div>
+			<div style="text-align:center; float: none;">
+				<img style="width: 20%; height: auto;" src="./img/ai.jpg">
+			</div>
+			<div style="float: right;">
+				<ul>
+					<li id="Achievement" onclick="func(&#39;Achievement&#39;)"><a href="./Achievement.html"
+							class="scroll">成果</a></li>
+					<li id="Act" onclick="func(&#39;Act&#39;)"><a href="./Act.html" class="scroll">活动</a></li>
+					<li id="Contact" onclick="func(&#39;Contact&#39;)"><a href="./Contact.html" class="scroll">联系方式</a>
+				</ul>
+			</div>
+		</div>
+
+		<div class="clear"> </div>
+		<!---End-top-nav--->
+	</div>
+
+
+	<div class="main_box">
+		<div class="thumbnail-people">
+			<img id="pic" src="./img/zhangfan_r.jpg" class="people-photo">
+		</div>
+		<hr />
+
+		<div>
+			<h4 style="font-size: 0px;"><span>张帆，教授，博士生导师，北京化工大学信息学院科研副院长，国家一流本科专业“电子信息工程”建设点负责人，</span>
+				<span>中国电子学会/IEEE高级会员，北京化工大学优秀教师。2008年毕业于中国科学院电子学研究所信号与信息处理专业，</span>
+				<span>获工学博士学位。2010年自中科院博士后出站至北京化工大学工作至今，主要讲授《信号与系统》、《CUDA并行计算》、</span>
+				<span>《人工智能导论》等课程，2014、2017年赴美国伊利诺伊大学香槟分校（UIUC）、德国德累斯顿工业大学（TUD）从事访学研究。</span>
+				<span>主要研究方向为SAR/光学遥感图像处理、人工智能、高性能计算等，担任中国电子学会DSP专委会委员、</span>
+				<span>中国电子教育学会研究生教育分会理事、中国图象图形学会宣工委委员等，</span>
+				<span>主持国家自然科学基金等纵向项目8项以及横向项目20余项，发表学术论文100余篇，带领团队获得全国图像解译比赛一等奖4项等。</span>
+			</h4>
+		</div>
+
+		<hr />
+
+		<div>
+			<p>招生专业 Admissions Major</p>
+			<li>
+				博士招生：欢迎信息与通信工程/计算机科学与技术/控制科学与工程等相关专业的同学发邮件咨询！
+			</li>
+			<li>
+				学术博士：计算机技术与智能系统、人工智能
+			</li>
+			<li>
+				工程博士：待定
+			</li>
+
+			<br>
+
+			<li>
+				硕士招生：欢迎电子信息工程/计算机科学与技术/人工智能/通信工程等相关专业的同学保送、报考！
+			</li>
+			<li>
+				学术硕士：信息与通信工程（02图像解译与智能处理）、计算机科学与技术（03图像智能信息处理算法研究）
+			</li>
+			<li>
+				专业硕士：电子信息（新一代电子信息技术-02遥感信息处理）、电子信息（计算机技术-05图像智能信息处理算法研究）
+
+			</li>
+		</div>
+
+		<hr />
+		<div>
+			<p>主要科研项目</p>
+			<table border="1">
+				<tr>
+					<td>项目名称</td>
+					<td>项目来源</td>
+				</tr>
+				<tr>
+					<td>基于深度长尾学习的SAR目标无偏检测研究</td>
+					<td>国家自然科学基金</td>
+				</tr>
+				<tr>
+					<td>资源受限环境下基于深度递归学习的多角度SAR目标识别</td>
+					<td>国家自然科学基金</td>
+				</tr>
+				<tr>
+					<td>不规则问题驱动下的多维度SAR回波混合粒度并行模拟</td>
+					<td>国家自然科学基金</td>
+				</tr>
+			</table>
+		</div>
+
+		<hr />
+
+		<div>
+			<p>主要论文</p>
+			<li>
+				Ma F, Sun X,
+				<b>Zhang F*</b>
+				, et al. What Catch Your Attention in SAR Images: Saliency Detection Based on Soft-Superpixel Lacunarity
+				Cue
+				[J].
+				<b><i>IEEE Transactions on Geoscience and Remote Sensing</i></b>
+				, 2023.
+			</li>
+
+			<li>
+				Ni J, Carlos Lopez-Martinez, Hu Z,
+				<b>Zhang F</b>
+				. Multitemporal SAR and Polarimetric SAR Optimization and Classification: Reinterpreting Temporal
+				Coherence
+				[J].
+				<b><i>IEEE Transactions on Geoscience and Remote Sensing</i></b>
+				, 2022.
+			</li>
+
+			<li>
+				Ma F,
+				<b>Zhang F*</b>
+				, Xiang D, et al. Fast Task-Specific Region Merging for SAR Image Segmentation[J].
+				<b><i>IEEE Transactions on Geoscience and Remote Sensing</i></b>
+				, 2022.
+			</li>
+
+			<li>
+				Cheng J, Xiang D, Yin Q,
+				<b>Zhang F*</b>
+				. A Novel Crop Classification Method Based on the Tensor-GCN for Time-Series PolSAR Data [J].
+				<b><i>IEEE Transactions on Geoscience and Remote Sensing</i></b>
+				, 2022.
+			</li>
+
+			<li>
+				Ni J,
+				<b>Zhang F*</b>
+				, Yin Q, et al. Random neighbor pixel-block-based deep recurrent learning for polarimetric SAR image
+				classification[J].
+				<b><i>IEEE Transactions on Geoscience and Remote Sensing</i></b>
+				, 2021, 59(9):7557-7569.
+			</li>
+
+			<li>
+				Ma F,
+				<b>Zhang F*</b>
+				, Zhang W, et al. Fast SAR Image Segmentation With Deep Task-Specific Superpixel Sampling and Soft Graph
+				Convolution[J].
+				<b><i>IEEE Transactions on Geoscience and Remote Sensing</i></b>
+				, 2020.
+			</li>
+
+			<li>
+				Xiang D,
+				<b>Zhang F</b>
+				, Zhang W, et al. Fast pixel-superpixel region merging for SAR image segmentation[J].
+				<b><i>IEEE Transactions on Geoscience and Remote Sensing</i></b>
+				, 2020.
+			</li>
+
+			<li>
+				<b>Zhang F</b>
+				, Wang Y, Ni J, et al. SAR target small sample recognition based on CNN cascaded features and AdaBoost
+				rotation forest[J].
+				<b><i>IEEE Geoscience and Remote Sensing Letters</i></b>
+				, 2019, 17(6): 1008-1012.
+			</li>
+
+			<li>
+				<b>Zhang F</b>
+				, Yao X, Tang H, et al. Multiple mode SAR raw data simulation and parallel acceleration for Gaofen-3
+				mission[J].
+				<b><i>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</i></b>
+				, 2018, 11(6): 2115-2126.
+			</li>
+
+			<li>
+				王 璐,
+				<b>张 帆*</b>
+				, 李 伟, 谢晓明, 胡 伟. 基于Gabor滤波器和局部纹理特征提取的SAR目标识别算法,
+				<b><i>雷达学报</i></b>
+				, 2015, 4(6), 658-665.
+			</li>
+		</div>
+
+	</div>
+</body>
+
+</html>

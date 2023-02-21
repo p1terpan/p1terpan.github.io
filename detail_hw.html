@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html class="csstransforms csstransforms3d csstransitions">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<title>图像解译与智能处理实验室</title>
+	<link href="./files/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./files/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./files/prettyPhoto.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./files/css" rel="stylesheet" type="text/css">
+	<link href="./files/content.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./files/font.css" rel="stylesheet" type="text/css" media="all">
+	<script type="text/javascript" src="./files/jquery.min.js.下载"></script>
+	<script type="text/javascript" src="./files/bootstrap.js.下载"></script>
+	<script type="text/javascript" src="./files/jquery.banner.js.下载"></script>
+	<script type="text/javascript" src="./files/jquery.prettyPhoto.js.下载"></script>
+	<script type="text/javascript" src="./files/jquery.isotope.js.下载"></script>
+	<script type="text/javascript" src="./files/main.js.下载"></script>
+	<script>
+		var lastname = 'Me';
+
+		function func(name) {
+			var div = document.getElementById(name);
+			div.className = 'active';
+			div = document.getElementById(lastname);
+			div.className = '';
+			lastname = name;
+		}
+
+		function coming_soon() {
+			alert("Coming soon.");
+		}
+	</script>
+</head>
+
+<body>
+	<div class="header">
+		<!---start-top-nav--->
+		<div class="top-nav" style="display: flex;">
+			<div style="float: left;width: 289px;">
+				<ul>
+					<li id=" index" onclick="func(&#39;Me&#39;)"><a href="./index.html" class="scroll">主页</a></li>
+					<li id="Member" onclick="func(&#39;Member&#39;)"><a href="./Member.html" class="scroll">成员</a></li>
+					<li id="Publication" onclick="func(&#39;Publications&#39;)"><a href="./Publication.html"
+							class="scroll">论著</a></li>
+				</ul>
+			</div>
+			<div style="text-align:center; float: none;">
+				<img style="width: 20%; height: auto;" src="./img/ai.jpg">
+			</div>
+			<div style="float: right;">
+				<ul>
+					<li id="Achievement" onclick="func(&#39;Achievement&#39;)"><a href="./Achievement.html"
+							class="scroll">成果</a></li>
+					<li id="Act" onclick="func(&#39;Act&#39;)"><a href="./Act.html" class="scroll">活动</a></li>
+					<li id="Contact" onclick="func(&#39;Contact&#39;)"><a href="./Contact.html" class="scroll">联系方式</a>
+				</ul>
+			</div>
+		</div>
+
+		<div class="clear"> </div>
+		<!---End-top-nav--->
+	</div>
+
+
+	<div class="main_box">
+		<div class="thumbnail-people">
+			<img id="pic" src="./img/huwei_r.jpg" class="people-photo">
+		</div>
+
+		<hr />
+
+		<div>
+			<h4 style="font-size: 0px;">
+				<span>胡伟，副教授，硕士生导师，北京化工大学计算机科学与技术系教师。2006年毕业于清华大学计算机科学与技术专业，获工学博士学位。</span>
+				<span>2008年加入北京化工大学工作，主要讲授《编译原理》、《数字媒体技术》等课程。主要研究方向为人工智能和计算机图形学，</span>
+				<span>具体涉及人脸识别、深度学习训练策略、智能音乐分析和实时三维图形绘制方法等研究问题。主持各类科研项目10余项，发表学术论文50余篇，</span>
+				<span>包括多篇人工智能和计算机图形学方向顶级期刊会议论文（其中两篇ESI高被引论文），论文被引次数超过1800次。</span>
+			</h4>
+		</div>
+
+		<hr />
+
+		<div>
+			<p>招生专业 Admissions Major</p>
+			<li>
+				硕士招生：欢迎计算机科学与技术/人工智能等相关专业的同学报考！
+			</li>
+			<li>
+				学术硕士：计算机科学与技术（03图像智能信息处理算法研究）
+			</li>
+			<li>
+				专业硕士：电子信息（计算机技术-05图像智能信息处理算法研究）
+			</li>
+		</div>
+
+		<hr />
+
+		<div>
+			<p>主要科研项目</p>
+			<table border="1">
+				<tr>
+					<td>项目名称</td>
+					<td>项目来源</td>
+				</tr>
+				<tr>
+					<td>基于图像空间的镜面相关效果实时绘制技术研究</td>
+					<td>国家自然科学青年基金</td>
+				</tr>
+				<tr>
+					<td>地球系统模式海量数据的快速可视化及诊断分析技术研究</td>
+					<td>国家863重点项目子课题</td>
+				</tr>
+				<tr>
+					<td>危险化学品事故的遥测预警系统理论与方法</td>
+					<td>国家973项目子课题</td>
+				</tr>
+				<tr>
+					<td>爱弹奏音乐智能分析系统</td>
+					<td>自研项目</td>
+				</tr>
+				<tr>
+					<td>球幕自动拼接系统</td>
+					<td>自研项目</td>
+				</tr>
+			</table>
+		</div>
+
+		<hr />
+
+		<p>主要论文</p>
+		<div style="font-family: 'Times New Roman', Times, serif;">
+			<li>
+				Qihao Zhao, 
+				<b>Wei Hu*</b>
+				, Yangyu Huang, Fan Zhang. "P-DIFF+: Improving Learning Classifier with Noisy Negative Learning Loss", Neural Networks, 144, 1-10, 2021. (
+				<b>SCI，影响因子8.05</b>
+				)
+			</li>
+			<li>
+				<b>Wei Hu</b>
+				, Yangyu Huang*, Fan Zhang, and Ruirui Li. "Noise-Tolerant Paradigm for Training Face Recognition CNNs", IEEE Conference on Computer Vision and Pattern Recognition (CVPR'19), Long Beach, CA, 2019. (
+				<b>CCF A会</b>
+				)
+			</li>
+			<li>
+				<b>Wei Hu</b>
+				, Yangyu Huang, Fan Zhang, Ruirui Li, Hengchao Li. " SeqFace: Learning discriminative features by using face sequences", IET Image Processing, 2021.
+			</li>
+			<li>
+				Fan Zhang, Zhenzhen Fu, Yongsheng Zhou, 
+				<b>Wei Hu</b>
+				, Wen Hong. "Multi-aspect SAR target recognition based on space-fixed and space-varying scattering feature joint learning", Remote Sensing Letters, 2019, 10(10): 998-1007. 
+			</li>
+			<li>
+				Kai Yue, Lei Yang, Ruirui Li, 
+				<b>Wei Hu</b>
+				, Fan Zhang, Wei Li. Treeunet: Adaptive tree cnns for subdecimeter aerial image segmentation[J]. ISPRS Journal of Photogrammetry and Remote Sensing, 2019, 156:1-13. (
+				<b>Top</b>
+				)
+			</li>
+			<li>
+				Fan Zhang, Yunchong Wang, Jun Ni, Yongsheng Zhou, 
+				<b>Wei Hu</b>
+				. SAR target small sample recognition based on CNN cascaded features and AdaBoost rotation forest[J]. IEEE Geoscience and Remote Sensing Letters, 2019, 17(6): 1008-1012.
+			</li>
+			<li>
+				Ruirui Li, Wenjie Liu, Lei Yang, Shihao Sun, 
+				<b>Wei Hu*</b>
+				, Fan Zhang, Wei Li. "Deepunet: A deep fully convolutional network for pixel-level sea-land segmentation", IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing 11.11 (2018): 3954-3962. (
+				<b>ESI高被引论文, 至2021年12月被引183次</b>
+				)
+			</li>
+			<li>
+				<b>Wei Hu*</b>
+				, Yangyu Huang, Wei Li, Fan Zhang, and Hengchao Li. "Deep Convolutional Neural Networks for Hyperspectral Image Classification", Journal of Sensors, article ID. 258619, vol. 2015, 15 pages, 2015. (
+				<b>ESI高被引论文，至2021年12月被引969次</b>
+				)
+			</li>
+			<li>
+				<b>Wei Hu*</b>
+				, Zhao Dong, Ivo Ihrke, Thoster Grosch, Guodong Yuan and Hans-Peter Seidel, "Interactive Volume Caustics in Single-Scattering Media", Proceedings of ACM SI3D, pp.109-117, 2010 (Result image is selected for Back Cover of the conference proceedings and Informatik Spektrum, 33(3), 2010.(
+				<b>CCF B会</b>
+				)
+			</li>
+			<li>
+				<b>Wei Hu*</b>
+				, Kaihuai Qin. Interactive Approximate Rendering of Reflections, Refractions, and Caustics. IEEE Transactions on Visualization and Computer Graphics, 13(1), 26-57, 2006.(
+				<b>CCF A刊</b>
+				)
+			</li>
+
+		</div>
+
+		<hr />
+
+	</div>
+</body>
+
+</html>

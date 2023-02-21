@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html class="csstransforms csstransforms3d csstransitions">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>图像解译与智能处理实验室</title>
+	<link href="./files/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./files/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./files/prettyPhoto.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./files/css" rel="stylesheet" type="text/css">
+	<link href="./files/content.css" rel="stylesheet" type="text/css">
+
+	<script charset="utf-8" src="chrome-extension://jgphnjokjhjlcnnajmfjlacjnjkhleah/js/btype.js"></script>
+	<script type="text/javascript" charset="utf-8"
+		src="chrome-extension://jgphnjokjhjlcnnajmfjlacjnjkhleah/js/chrome.js"></script>
+	<script type="text/javascript" src="chrome-extension://aadgmnobpdmgmigaicncghmmoeflnamj/ng-inspector.js"></script>
+	<script type="text/javascript" src="./files/jquery.min.js.下载"></script>
+	<script type="text/javascript" src="./files/bootstrap.js.下载"></script>
+	<script type="text/javascript" src="./files/jquery.banner.js.下载"></script>
+	<script type="text/javascript" src="./files/jquery.prettyPhoto.js.下载"></script>
+	<script type="text/javascript" src="./files/jquery.isotope.js.下载"></script>
+	<script type="text/javascript" src="./files/main.js.下载"></script>
+	<script>
+		var lastname = 'Me';
+
+		function func(name) {
+			var div = document.getElementById(name);
+			div.className = 'active';
+			div = document.getElementById(lastname);
+			div.className = '';
+			lastname = name;
+		}
+
+		function coming_soon() {
+			alert("Coming soon.");
+		}
+	</script>
+</head>
+
+<body>
+	<div class="header">
+		<!---start-top-nav--->
+		<div class="top-nav" style="display: flex;">
+			<div style="float: left;">
+				<ul>
+					<li id=" index" onclick="func(&#39;Me&#39;)"><a href="./index.html" class="scroll">主页</a></li>
+					<li id="Member" onclick="func(&#39;Member&#39;)"><a href="./Member.html" class="scroll">成员</a></li>
+					<li id="Publication" onclick="func(&#39;Publications&#39;)"><a href="./Publication.html"
+							class="scroll">论著</a></li>
+				</ul>
+			</div>
+			<div style="text-align:center; float: none;">
+				<img style="width: 20%; height: auto;" src="./img/ai.jpg">
+			</div>
+			<div style="float: right;">
+				<ul>
+					<li id="Achievement" onclick="func(&#39;Achievement&#39;)"><a href="./Achievement.html"
+							class="scroll">成果</a></li>
+					<li id="Act" onclick="func(&#39;Act&#39;)"><a href="./Act.html" class="scroll">活动</a></li>
+					<li id="Contact" onclick="func(&#39;Contact&#39;)"><a href="./Contact.html" class="scroll">联系方式</a>
+				</ul>
+			</div>
+		</div>
+
+		<div class="clear"> </div>
+		<!---End-top-nav--->
+	</div>
+
+	<div class="main_box" style="text-align: center;">
+		<div>
+			<strong>遥感图像智能解译</strong>
+			<p>首获国家自然科学基金面上项目资助的多角度SAR目标识别研究。</p>
+		</div>
+		<div>
+			<img id="remote_img" src="./img/ach_remote_img.png" title="remote_img">
+		</div>
+
+		<hr />
+
+		<div>
+			<strong>极化SAR数据处理</strong>
+			<p>应用于极化SAR软件实现多波段全极化SAR数据的地物分类、湿度反演、DEM提取。</p>
+		</div>
+		<div>
+			<img id="po_sar" src="./img/po_sar.png" title="remote_img">
+		</div>
+
+		<hr />
+
+		<div>
+			<strong>SAR仿真与定标</strong>
+			<p>收获国家自然科学基金面上项目资助的SAR交叉定标研究。</p>
+		</div>
+		<div>
+			<img id="sar_sim" src="./img/sar_sim.png" title="remote_img">
+		</div>
+
+		<hr />
+
+		<div>
+			<strong>计算机视觉</strong>
+			<p>学院首篇CVPR论文——噪声标签数据的人脸识别模型训练方法。</p>
+		</div>
+		<div>
+			<img id="cv" src="./img/cv.png" title="remote_img">
+		</div>
+	</div>
+	</div>
+
+
+
+</body>
+
+</html>

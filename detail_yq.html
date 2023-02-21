@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html class="csstransforms csstransforms3d csstransitions">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<title>图像解译与智能处理实验室</title>
+	<link href="./files/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./files/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./files/prettyPhoto.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./files/css" rel="stylesheet" type="text/css">
+	<link href="./files/content.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./files/font.css" rel="stylesheet" type="text/css" media="all">
+	<script type="text/javascript" src="./files/jquery.min.js.下载"></script>
+	<script type="text/javascript" src="./files/bootstrap.js.下载"></script>
+	<script type="text/javascript" src="./files/jquery.banner.js.下载"></script>
+	<script type="text/javascript" src="./files/jquery.prettyPhoto.js.下载"></script>
+	<script type="text/javascript" src="./files/jquery.isotope.js.下载"></script>
+	<script type="text/javascript" src="./files/main.js.下载"></script>
+	<script>
+		var lastname = 'Me';
+
+		function func(name) {
+			var div = document.getElementById(name);
+			div.className = 'active';
+			div = document.getElementById(lastname);
+			div.className = '';
+			lastname = name;
+		}
+
+		function coming_soon() {
+			alert("Coming soon.");
+		}
+	</script>
+</head>
+
+<body>
+	<div class="header">
+		<!---start-top-nav--->
+		<div class="top-nav" style="display: flex;">
+			<div style="float: left;width: 289px;">
+				<ul>
+					<li id=" index" onclick="func(&#39;Me&#39;)"><a href="./index.html" class="scroll">主页</a></li>
+					<li id="Member" onclick="func(&#39;Member&#39;)"><a href="./Member.html" class="scroll">成员</a></li>
+					<li id="Publication" onclick="func(&#39;Publications&#39;)"><a href="./Publication.html"
+							class="scroll">论著</a></li>
+				</ul>
+			</div>
+			<div style="text-align:center; float: none;">
+				<img style="width: 20%; height: auto;" src="./img/ai.jpg">
+			</div>
+			<div style="float: right;">
+				<ul>
+					<li id="Achievement" onclick="func(&#39;Achievement&#39;)"><a href="./Achievement.html"
+							class="scroll">成果</a></li>
+					<li id="Act" onclick="func(&#39;Act&#39;)"><a href="./Act.html" class="scroll">活动</a></li>
+					<li id="Contact" onclick="func(&#39;Contact&#39;)"><a href="./Contact.html" class="scroll">联系方式</a>
+				</ul>
+			</div>
+		</div>
+
+		<div class="clear"> </div>
+		<!---End-top-nav--->
+	</div>
+
+
+	<div class="main_box">
+		<div class="thumbnail-people">
+			<img id="pic" src="./img/yinqiang_r.jpg" class="people-photo">
+		</div>
+
+		<hr />
+
+		<div>
+			<h4 style="font-size: 0px;">
+				<span>尹嫱，工学博士，副教授，硕士生导师。自2006 年起一直从事遥感数据处理和应用研究，先后在中国科学院电子学研究所获得硕士、</span>
+				<span>博士学位。2014-2015赴欧洲空间局（European Space Agency）访问一年。2018年北京化工大学博士后出站后留校任教，</span>
+				<span>现任信息科学与技术学院信息工程系主任，数字图像处理教学团队负责人，主要讲授《数字图像处理》《多传感器信息融合》《信息简史》等课程。</span>
+				<span>研究方向包括雷达遥感图像处理，极化特征的机器学习分类，地物散射建模与定量化反演应用等。主持国家自然科学基金、北京市自然科学基金、</span>
+				<span>国家大科学装置-航空遥感系统极化处理软件等项目，担任科技部-欧空局国际合作“龙计划”(Dragon Programme) 四期及五期项目中方Co-PI，</span>
+				<span>中欧国际陆地遥感高级培训班授课教师，是两部权威极化雷达专著的主要译者。2016-2020期间任IEEE GRSS（地学与遥感协会）亚太区协调人，</span>
+				<span>2021年起任IEEE WIE（女工程师协会）北京分会副主席。
+			</h4>
+		</div>
+
+		<hr />
+
+		<div>
+			<p>招生专业 Admissions Major</p>
+			<li>
+				硕士招生：欢迎电子信息工程/计算机科学与技术/人工智能/通信工程等相关专业的同学保送、报考！
+			</li>
+			<li>
+				学术硕士：信息与通信工程（02图像解译与智能处理）、计算机科学与技术（03图像智能信息处理算法研究）
+			</li>
+			<li>
+				专业硕士：电子信息（新一代电子信息技术-02遥感信息处理）、电子信息（计算机技术-05图像智能信息处理算法研究）
+			</li>
+		</div>
+
+		<hr />
+
+		<div>
+			<p>主要科研项目</p>
+			<table border="1">
+				<tr>
+					<td>项目名称</td>
+					<td>项目来源</td>
+				</tr>
+				<tr>
+					<td>基于重轨干涉SAR相位信息的土壤湿度变化建模及反演方法研究</td>
+					<td>国家自然科学基金项目</td>
+				</tr>
+				<tr>
+					<td>矿区地基SAR形变监测中的地表湿度变化影响研究</td>
+					<td>北京市自然科学基金项目</td>
+				</tr>
+				<tr>
+					<td>星载重轨干涉SAR数据土壤湿度变化检测研究</td>
+					<td>中国博士后科学基金项目</td>
+				</tr>
+				<tr>
+					<td>国家大科学装置-航空遥感系统多波段全极化SAR数据处理软件</td>
+					<td>空天信息创新研究院项目</td>
+				</tr>
+				<tr>
+					<td>基于极化特征的机器学习分类方法研究</td>
+					<td>空天信息创新研究院项目</td>
+				</tr>
+			</table>
+		</div>
+
+		<hr />
+
+		<p>主要论文</p>
+		<div style="font-family: 'Times New Roman', Times, serif;">
+			<li>
+				<b>尹嫱</b>
+				，徐洁. 基于城区特征和SLIC的简缩极化SAR分类方法[J].雷达科学与技术. 2021,19(5):583-588. 
+				<b><i>雷达女科学家专刊</i></b>
+				.
+			</li>
+			<li>
+				<b>Qiang Yin</b>
+				; Junlang Li; Fei Ma*; et al. Dual-Channel Convolutional Neural Network for Bare Surface Soil Moisture Inversion Based on Polarimetric Scattering Models. Remote Sensing, 2021, 13(22): 4503.
+			</li>
+			<li>
+				Fei Ma; Fan Zhang; 
+				<b>Qiang Yin</b>
+				; et al. Fast SAR Image Segmentation With Deep Task-Specific Superpixel Sampling and Soft Graph Convolution. IEEE Transactions on Geoscience and Remote Sensing, doi:10.1109/TGRS.2021.3108585. 2021.
+			</li>
+			<li>
+				<b>Qiang Yin</b>
+				; Jie Xu; Deliang Xiang*; et al. Polarimetric Decomposition With an Urban Area Descriptor for Compact Polarimetric SAR Data. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2021, 14: 10033-10044.
+			</li>
+			<li>
+				<b>Qiang Yin</b>
+				; You Wu; Fan Zhang*; Yongsheng Zhou. GPU-Based Soil Parameter Parallel Inversion for PolSAR Data. Remote Sensing. 2020, 12, 415.
+			</li>
+			<li>
+				<b>Qiang Yin</b>
+				; Wen Hong; Fan Zhang*; Eric Pottier; Optimal Combination of Polarimetric Features for Vegetation Classification in PolSAR Image, IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2019-11-13 , 12(10)：3919-3931.
+			</li>
+			<li>
+				You Wu; 
+				<b>Qiang Yin*</b>
+				; Fan Zhang; GPU-Based Soil Parameter Parallel Inversion for PolSAR Imagery, Asia Pacific Conference on Synthetic Aperture Radar, 2019.11.26-29. 
+				<b><i>Best Paper Award</i></b>
+				.
+			</li>
+			<li>
+				<b>Qiang Yin</b>
+				, Wen Hong, Fan Zhang, Eric Pottier. Analysis of Polarimetric Feature Combination Based on PolSAR Image Classification Performance with Machine Learning Approach, 2018 IEEE International Geoscience and Remote Sensing Symposium (IGARSS), Valencia, Spain, July 22-27 2018. 
+				<b><i>Invited Paper</i></b>
+				.
+			</li>
+			<li>
+				Yang Li, 
+				<b>Qiang Yin*</b>
+				, Yun Lin, Wen Hong. Anisotropy Scattering Detection from Multi-Aspect Signatures of Circular Polarimetric SAR. IEEE Geoscience and Remote Sensing Letters, 2018, 15(10):1575-1579.
+			</li>
+			<li>
+				<b>Qiang Yin</b>
+				, Wen Hong*, Yun Lin, Yang Li. Soil Moisture Change Estimation using InSAR Coherence Variations with Preliminary Laboratory Measurements, Science China Information Sciences, 2017, 60(2): 029301: 1-3. 
+			</li>
+		</div>
+
+		<hr />
+
+	</div>
+</body>
+
+</html>

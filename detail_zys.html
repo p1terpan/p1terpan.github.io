@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html class="csstransforms csstransforms3d csstransitions">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<title>图像解译与智能处理实验室</title>
+	<link href="./files/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./files/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./files/prettyPhoto.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./files/css" rel="stylesheet" type="text/css">
+	<link href="./files/content.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./files/font.css" rel="stylesheet" type="text/css" media="all">
+	<script type="text/javascript" src="./files/jquery.min.js.下载"></script>
+	<script type="text/javascript" src="./files/bootstrap.js.下载"></script>
+	<script type="text/javascript" src="./files/jquery.banner.js.下载"></script>
+	<script type="text/javascript" src="./files/jquery.prettyPhoto.js.下载"></script>
+	<script type="text/javascript" src="./files/jquery.isotope.js.下载"></script>
+	<script type="text/javascript" src="./files/main.js.下载"></script>
+	<script>
+		var lastname = 'Me';
+
+		function func(name) {
+			var div = document.getElementById(name);
+			div.className = 'active';
+			div = document.getElementById(lastname);
+			div.className = '';
+			lastname = name;
+		}
+
+		function coming_soon() {
+			alert("Coming soon.");
+		}
+	</script>
+</head>
+
+<body>
+	<!---start-wrap--->
+	<!---start-header--->
+	<div class="header">
+		<!---start-top-nav--->
+		<div class="top-nav" style="display: flex;">
+			<div style="float: left;width: 289px;">
+				<ul>
+					<li id=" index" onclick="func(&#39;Me&#39;)"><a href="./index.html" class="scroll">主页</a></li>
+					<li id="Member" onclick="func(&#39;Member&#39;)"><a href="./Member.html" class="scroll">成员</a></li>
+					<li id="Publication" onclick="func(&#39;Publications&#39;)"><a href="./Publication.html"
+							class="scroll">论著</a></li>
+				</ul>
+			</div>
+			<div style="text-align:center; float: none;">
+				<img style="width: 20%; height: auto;" src="./img/ai.jpg">
+			</div>
+			<div style="float: right;">
+				<ul>
+					<li id="Achievement" onclick="func(&#39;Achievement&#39;)"><a href="./Achievement.html"
+							class="scroll">成果</a></li>
+					<li id="Act" onclick="func(&#39;Act&#39;)"><a href="./Act.html" class="scroll">活动</a></li>
+					<li id="Contact" onclick="func(&#39;Contact&#39;)"><a href="./Contact.html" class="scroll">联系方式</a>
+				</ul>
+			</div>
+		</div>
+
+		<div class="clear"> </div>
+		<!---End-top-nav--->
+	</div>
+
+	<div class="main_box">
+		<div class="thumbnail-people">
+			<img id="pic" src="./img/zhouyongsheng_r.jpg" class="people-photo">
+		</div>
+		<hr />
+
+		<div>
+			<h4 style="font-size: 0px;">
+				<span>周勇胜，工学博士，教授，硕士生导师。2010年毕业于中国科学院电子学研究所信号与信息处理专业，获工学博士学位。</span>
+				<span>2010年至2019年于中科院光电研究院工作。2019年进入北京化工大学信息科学与技术学院工作，主要讲授《数字信号处理》、</span>
+				<span>《Python语言程序设计》、《遥感图像处理及应用》等课程。主要科研方向为合成孔径雷达（SAR）图像目标检测与识别、</span>
+				<span>极化/极化干涉SAR数据处理应用、微波卫星/航空遥感载荷定标与性能检测等，主持国家重点研发计划课题/子课题、</span>
+				<span>国家自然科学基金面上基金/青年基金等国家纵向项目以及横向项目10余项。发表文章40余篇，授权专利10余项。</span>
+			</h4>
+		</div>
+
+		<hr />
+
+		<div>
+			<p>招生专业 Admissions Major</p>
+			<li>
+				欢迎信息与通信工程/计算机科学与技术/控制科学与工程等相关专业的同学发邮件咨询！
+			</li>
+			<li>
+				学术博士：计算机技术与智能系统、人工智能
+			</li>
+			<li>
+				工程博士：待定
+			</li>
+
+			<br>
+
+			<li>
+				硕士招生：欢迎电子信息工程/计算机科学与技术/人工智能/通信工程等相关专业的同学保送、报考！
+			</li>
+			<li>
+				学术硕士：信息与通信工程（02图像解译与智能处理）、计算机科学与技术（03图像智能信息处理算法研究）
+			</li>
+			<li>
+				专业硕士：电子信息（新一代电子信息技术-02遥感信息处理）、电子信息（计算机技术-05图像智能信息处理算法研究）
+			</li>
+		</div>
+
+		<hr />
+
+		<div>
+			<p>主要科研项目</p>
+			<table border="1">
+				<tr>
+					<td>项目名称</td>
+					<td>项目来源</td>
+				</tr>
+				<tr>
+					<td>岛礁和海上构筑物多尺度信息综合提取技术</td>
+					<td>国家重点研发计划课题</td>
+				</tr>
+				<tr>
+					<td>新体制星载SAR系统定标方法与高精度误差补偿技术</td>
+					<td>国家重点研发计划子课题</td>
+				</tr>
+				<tr>
+					<td>无人机载极化干涉SAR森林高度反演方法研究</td>
+					<td>国家自然科学基金青年项目</td>
+				</tr>
+				<tr>
+					<td>复杂自然场景下微波凝视关联图像质量评价技术</td>
+					<td>国家863计划子课题</td>
+				</tr>
+			</table>
+		</div>
+
+		<hr />
+
+		<p>主要论文</p>
+		<div style="font-family: 'Times New Roman', Times, serif;">
+			<li>
+				Fan Zhang, Yunchong Wang, Jun Ni, 
+				<b>Yongsheng Zhou*</b>
+				, Wei Hu. SAR Target Small Sample Recognition based on CNN Cascaded Features and AdaBoost Rotation Forest. IEEE Geoscience and Remote Sensing Letters, 2020 , 1-5.
+			</li>
+			<li>
+				Fan Zhang, Zhenzhen Fu, 
+				<b>Yongsheng Zhou*</b>
+				, Wei Hu and Wen Hong. Multi-aspect SAR target recognition based on space-fixed and space-varying scattering feature joint learning. Remote Sensing Letters, 2019, 10(10), 998-1007.
+			</li>
+			<li>
+				<b>Yongsheng Zhou</b>
+				, Chuanrong Li*, Lingli Tang, Lingling Ma, Qi Wang. A permanent bar-pattern distributed target for microwave image resolution analysis. IEEE Geoscience and Remote Sensing Letters, 2017, 14(2): 164-168.				
+			</li>
+			<li>
+				<b>周勇胜</b>
+				, 马灵玲, 王彩云, 宋庆君. 三维成像微波高度计图像质量分析, 第五届微波遥感技术研讨会, 普洱,2017.10.11-10.13.
+			</li>
+			<li>
+				<b>Yongsheng Zhou</b>
+				, Chuanrong Li, Lingli Tang, Caixia Gao, Dongjin Wang, Yuanyue Guo. Performance analysis of new types of reference targets based on spaceborne and airborne SAR data, 18th International Conference on Remote Sensing, Dubai, UAE, 2016.4.8-4.9.(最优论文)
+			</li>
+			<li>
+				<b>周勇胜</b>
+				, 向卫力, 汪琪, 李晓辉, 李传荣. 面向SAR目标识别的稀疏字典学习方法, 第三届成像雷达对地观测高级学术研讨会, 长沙, 2016.11.15-11.18.
+			</li>
+			<li>
+				<b>Yongsheng Zhou</b>
+				, Chuanrong Li, Lingling Ma, Machael Ying Yang. Improved trihedral corner reflector for high-precision SAR calibration and validation, 2014 IEEE Geoscience and Remote Sensing Symposium, Quebec City, QC, Canada, 2014.7.13-7.18.
+			</li>
+			<li>
+				<b>Yongsheng Zhou</b>
+				, Chuanrong Li, Lingling Ma, Ning Wang, Qi Li, A Topographic correction method for forest height retrieval from polarimetric interferometric radar images, 2013 IEEE International Geoscience and Remote Sensing Symposium, Melbourne, 2013.7.21-7.26.
+			</li>
+			<li>
+				<b>Yongsheng Zhou</b>
+				, Wen Hong, Yanping Wang, Yirong Wu. Maximal effective baseline for polarimetric interferometric radar forest height estimation, Science China Information Sciences, 2012, 554：867-876.
+			</li>
+			<li>
+				<b>Yongsheng Zhou</b>
+				, Qi Wang, Lingling Ma, Chuanrong Li, Lingli Tang, Yaokai Liu, Quality analysis for images acquired by a new staring correlation imaging technique, 2012 IEEE International Geoscience and Remote Sensing Symposium, Munich, 2012.7.22-7.27.
+			</li>
+			<li>
+				<b>Yongsheng Zhou</b>
+				, Mei Zhou, Lingli Tang, Chuanrong Li, Performance analysis of weak target detection via ground -based radar, International Symposium on Lidar and Radar Mapping, Nanjing, 2011.5.26-5.29.
+			</li>
+			<li>
+				<b>周勇胜</b>
+				, 洪文,王彦平, 曹芳, 吴一戎. 基于RVoG模型的极化干涉SAR最优基线分析. 电子学报. 2008, 36(12): 2367-2372.
+			</li>
+			<li>
+				<b>Yongsheng Zhou</b>
+				, Wen Hong, Fang Cao, Lu Bai. Potential performance of the Chinese X-band airborne Pol-InSAR. 2008 MOST-ESA Dragon 1 Final Results and Dragon 2 Kick Off Symposium (Dragon 2008), Beijing, 2008.4.21-4.25.
+			</li>
+			<li>
+				<b>Yongsheng Zhou</b>
+				, Wen Hong, Yanping Wang, Yirong Wu, Cao Fang. Baseline analysis of polarimetric SAR interferometry. 1stAsian and Pacific Conference on Synthetic Aperture Radar, Huangshan, China, 2007.11.5-11.9. (最优论文)
+			</li>
+		</div>
+
+		<hr />
+
+		<p>研究成果</p>	
+		<img src="./img/zhou_ach.png" id="img" name="img">
+	</div>
+</body>
+
+</html>
